@@ -1,0 +1,43 @@
+.fade-enter {
+    opacity: 0;
+    transform: translate(0, 15px);
+    z-index: 1;
+    transition-duration: .4s;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition-delay: .4s;
+}
+
+.fade-exit {
+    opacity: 1;
+    transform: translate(0, 0);
+    z-index: 2;
+}
+  
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    z-index: 2;
+    transform: translate(0, -15px);
+    transition-delay: .0s;
+    transition-duration: .4s;
+}
+
+/* Modal */
+.modal-enter .overlay, .modal-exit.modal-exit-active .overlay {
+    opacity: 0;
+}
+
+.modal-enter .content, .modal-exit.modal-exit-active .content {
+    transform: translateX(calc(100% + 20px));
+}
+
+.modal-enter-active .overlay {
+    opacity: 1;
+} 
+
+.modal-enter-active .content {
+    transform: translateX(0);
+}

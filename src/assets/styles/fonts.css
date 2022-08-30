@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'PTRootUI';
+  src: url("../fonts/PTRootUI/PT-Root-UI_Regular.woff") format('woff'),
+    url("../fonts/PTRootUI/PT-Root-UI_Regular.woff2") format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PTRootUI';
+  src: url("../fonts/PTRootUI/PT-Root-UI_Medium.woff") format('woff'),
+    url("../fonts/PTRootUI/PT-Root-UI_Medium.woff2") format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto/Roboto-Bold.woff") format('woff');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
